@@ -1,0 +1,1 @@
+powershell.exe "C:\monitor\windows_monitor.ps1"
