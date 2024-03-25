@@ -4,6 +4,8 @@ $shareName = "checkservice\log"
 $destinationPath = "C:\monitor\checkservice\34"
 
 # กำหนดชื่อและรหัสผ่าน
+$username = "oa-adm"
+$password = ConvertTo-SecureString "Charger#ADM@2023" -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential($username, $password)
 
 # เชื่อมต่อกับเซิร์ฟเวอร์และเก็บไว้ในไดรฟ์ใหม่
