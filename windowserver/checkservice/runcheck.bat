@@ -1,0 +1,1 @@
+pwsh.exe "C:\monitor\checkservice\service check.ps1"
